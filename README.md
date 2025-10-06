@@ -287,6 +287,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
   | [Sleep-EDF ](https://www.physionet.org/content/sleep-edf/1.0.0/) | Neuroscience | EEG | Pre-training, SFT | Classification | 2013.10 | EN | Academic and research resources | Semi-automated | N/A | N/A | N/A | 197 |
   | [SHHS ](https://sleepdata.org/datasets/shhs) | Neuroscience | EEG | Pre-training, SFT | Classification | 1998.01 | EN | Academic and research resources | Semi-automated | N/A | N/A | N/A | 6,441 |
   | [repoDB ](https://unmtid-shinyapps.net/shiny/repodb/) | Pharmacy, Healthcare and Medical Sciences | Drug-disease relationships, Clinical trials | RAG | Classification, Text QA | 2017.03 | EN | Scientific databases | Automated | N/A | N/A | scripts | 15,648 |
+  | [MedMax Train ](https://huggingface.co/datasets/mint-medmax/medmax_data) | Curated Version of Several Biomedical Datasets | Academic papers, YouTube Videos | Pre-training, SFT | VQA, Visual Chat, Interleaved Vision-Language Data, Image Generation, and Captioning | 2024.12 | EN | Academic and research resources | Automated | N/A | N/A | GPT-4o-mini and GPT-4o | 1,470,000 |
 </details>
 
 <details>
@@ -565,6 +566,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [AdaBrain-Bench ](https://github.com/Jamine-W/AdaBrain-Bench) | Neuroscience | EEG | N/A | Classification | 2025.07 | EN | Integration of existing datasets | N/A | N/A | N/A | N/A | N/A | Open-ended | Acc, AUROC, AUPRC, F1, PCC, R\textsuperscript{2} |
 | [FDA Pharmaceuticals FAQ ](https://huggingface.co/datasets/Jaymax/FDA_Pharmaceuticals_FAQ) | Pharmacy | FAQ-style text | Expert | Text QA | 2023.03 | EN | Web and Internet content | Automated | N/A | N/A | N/A | 1,681 | MCQ | Acc |
 | [repoDB ](https://unmtid-shinyapps.net/shiny/repodb/) | Pharmacy, Healthcare and Medical Sciences | Drug-disease relationships, Clinical trial outcomes | Expert | Classification, Text QA | 2017.03 | EN | Scientific databases | Automated | N/A | N/A | scripts | 15,648 | MCQ, Retrieval | AUROC, AUPRC, Acc |
+| [MedMax Eval ](https://huggingface.co/datasets/mint-medmax/medmax_eval_data) | Standardization of several biomedical evaluation sets | Radiology, Histopathology | Expert | VQA, Visual Chat, Interleaved Vision-Language Data, Image Generation, and Captioning | 2024.12 | EN | Academic and research resources | Automated | N/A | N/A | GPT-4, BioMedCLIP, Rule-based | 9,500 | Open-Ended, Close-Ended | Acc, CLIPScore |
 
 </details>
 
@@ -934,6 +936,7 @@ Chronological overview of notable Sci-LLMs categorized by six scientific domains
 | [Lingshu ](https://huggingface.co/papers/2506.07044) | Healthcare and Medical Sciences | 7B / 32B | Qwen | N/A | 2025.06 | ✅ |
 | [PodGPT ](https://github.com/vkola-lab/PodGPT) | Healthcare and Medical Sciences | N/A | Gemma, Mixtral, LLaMA | N/A | 2025.07 | ✅ |
 | [MedGemma ](https://github.com/Google-Health/medgemma) | Healthcare and Medical Sciences | 4B / 27B | Gemma 3 | SigLip Image Encoder (vision) | 2025.07 | ✅ |
+| [MedMax ](https://github.com/Hritikbansal/medmax) | Natively Multimodal Biomedical Tasks | 7B | Meta Chameleon| N/A| 2024.12 | ✅ |
 
 </details>
 
